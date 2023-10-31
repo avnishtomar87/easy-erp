@@ -29,6 +29,7 @@ const getAllUsers = catchAsync(async (req, res, next) => {
         [Op.iLike]: `%${keyword ? keyword : "%"}%`,
       },
     },
+    role: "user"
   };
   if (email) {
     where.email = email;

@@ -18,4 +18,6 @@
     "role":"admin"
 }
 
-10. basiAuth : 1234;
+10. basiAuth : 1234
+
+11. live url : https://easy-erp.onrender.com/api/v1/users
